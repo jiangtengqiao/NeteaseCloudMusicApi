@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "yarn install",
   "routes": [
     { "src": "/(.*)", "dest": "/$1" }
   ]
